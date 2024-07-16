@@ -280,8 +280,8 @@ footer .cv-pdf i:hover {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover {
-    color: #10e8cf;
+.social-links li a i:hover {            /*-- The code for the glow effect is taken from https://www.sliderrevolution.com/resources/css-hover-effects/ --*/
+    color: #10e8cf;                          /* -- Developer: Diego Lopes -- */
     box-shadow: 0 0 5px #1de9d1;
     text-shadow: 0 0 5px #1de9d1;
 }
