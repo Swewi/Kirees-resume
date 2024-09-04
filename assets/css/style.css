@@ -483,6 +483,7 @@ button:hover[type="submit"] {
 .link-change {
     color: #fff;
     text-decoration: underline;
+    font-size: large;
 }
 
 .link-change:hover {
