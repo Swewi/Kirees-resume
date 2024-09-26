@@ -130,25 +130,26 @@ img {
   border: 1px solid #750b0b;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  border-radius: 3px;
+  border-radius: 4px;
   color: #fff;
   background-color: #750b0b;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#961414), to(#750b0b));
-  background-image: -webkit-linear-gradient(top, #961414, #750b0b);
-  background-image: -moz-linear-gradient(top, #961414, #750b0b);
-  background-image: -ms-linear-gradient(top, #961414, #750b0b);
-  background-image: -o-linear-gradient(top, #961414, #750b0b);
-  background-image: linear-gradient(top, #961414, #750b0b);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ae1f1f), to(#750b0b));
+  background-image: -webkit-linear-gradient(top, #ae1f1f, #750b0b);
+  background-image: -moz-linear-gradient(top, #ae1f1f, #750b0b);
+  background-image: -ms-linear-gradient(top, #ae1f1f, #750b0b);
+  background-image: -o-linear-gradient(top, #ae1f1f, #750b0b);
+  background-image: linear-gradient(to top, #ae1f1f, #750b0b);
 }
 
 .repo-list ul li a:hover {
+  color: #000 ;
   background-color: #016055;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#1de9d1), to(#016055));
-  background-image: -webkit-linear-gradient(top, #1de9d1, #016055);
-  background-image: -moz-linear-gradient(top, #1de9d1, #016055);
-  background-image: -ms-linear-gradient(top, #1de9d1, #016055);
-  background-image: -o-linear-gradient(top, #1de9d1, #016055);
-  background-image: linear-gradient(top, #1de9d1, #016055);
+  background-image: -webkit-linear-gradient(top, #016055, #1de9d1);
+  background-image: -moz-linear-gradient(top, #016055, #1de9d1);
+  background-image: -ms-linear-gradient(top, #016055, #1de9d1);
+  background-image: -o-linear-gradient(top, #016055, #1de9d1);
+  background-image: linear-gradient(to top, #016055, #1de9d1);
 }
 
 .repo-list ul li a:active {
@@ -171,6 +172,8 @@ img {
   color: #666;
   max-width: 550px;
   margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
 }
 
 #gh-submit {
