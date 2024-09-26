@@ -232,7 +232,7 @@ header {
 /*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
@@ -474,7 +474,7 @@ button:hover[type="submit"] {
 .thumbnail img {
     width: 100%;
     height: auto;
-    transition: transform 0.2s;
+    transition: transform ease-in 0.1s;
 }
 .thumbnail img:hover {
     transform: scale(1.1);
