@@ -59,7 +59,7 @@
 }
 
 body {
-    font-family: Port Lligat Sans, sans-serif;
+    font-family: "Port Lligat Sans", sans-serif;
     font-weight: 300;
     background-color: #525252;
     color: #fff;
@@ -96,10 +96,12 @@ h4 {
 
 .history-heading,
 .section-heading {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    margin-top: 25px;
-    margin-bottom: 40px;
+    font-family: "Port Lligat Sans", sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: xx-large;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 /*--------------------------------------------Heading*/
@@ -407,6 +409,84 @@ footer .cv-pdf i:hover {
     margin: 40px 20px;
 }
 
+.course-section .heading {
+    margin-bottom: 0.75rem !important;
+}
+
+.course-prov {
+    margin-bottom: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 11rem;
+    letter-spacing: 1px;
+    font-size: x-large;
+}
+
+.course-section li {
+    list-style: none;
+}
+
+.course-section button {
+    padding: 0.4rem 0.6rem;
+    border: 1px solid #000;
+    margin: 0.3rem;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-image: linear-gradient(to top, #ae1f1f, #750b0b);
+    color: #fafafa;
+}
+
+.course-section button:hover {
+    background-image: linear-gradient(to top, #016055, #1de9d1);
+    color: #000;
+}
+
+:popover-open {
+    width: 400px;
+    height: 275px;
+    padding: 0 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    box-shadow: 0 0 20px 2px #292828;
+    background-color: #525252;
+    color: #fafafa;
+    border: none;
+  }
+
+::backdrop {
+    backdrop-filter: blur(3px);
+  }
+
+.pop p {
+    margin: 0 0.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.pop a {
+    margin: 0 auto;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+    letter-spacing: 1px;
+    color: #000;
+    background-image: linear-gradient(to top, #016055, #1de9d1);
+    padding: 0.2rem 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.pop a:hover {
+    background-image: linear-gradient(to top, #ae1f1f, #750b0b);
+    color: #fafafa;
+    padding: 0.2rem 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
 /*--------------------------------------------Work History*/
 
 .timeline-item {
@@ -458,10 +538,12 @@ footer .cv-pdf i:hover {
 /*--------------------------------------------Contact*/
 
 .contact-heading {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    margin-top: 25px;
-    margin-bottom: 20px;
+    font-family: "Port Lligat Sans", sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: xx-large;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .form-control {
@@ -475,14 +557,19 @@ footer .cv-pdf i:hover {
 }
 
 button[type="submit"] {
+    font-family: "Port Lligat Sans", sans-serif;
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: 2px;
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
-    background-color: #820e0e;
+    background-image: linear-gradient(to top, #ae1f1f, #750b0b);
     color: #fafafa;
 }
 
 button:hover[type="submit"] {
-    background-color: #016055;
+    background-image: linear-gradient(to top, #016055, #1de9d1);
+    color: #000;
 }
 
 /*-------------------------------------------Interests*/
