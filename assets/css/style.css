@@ -598,6 +598,28 @@ button:hover[type="submit"] {
 
 /*--------------------------------------------Media Queries*/
 
+@media (max-width: 767px) {
+    .course-section .row {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+@media (min-width: 768px) and (max-width: 1350px) {
+    .course-section .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .course-section .row li {
+      flex: 1 1 calc(50% - 1rem);
+    }
+  
+    .course-prov {
+      width: 100%;
+    }
+  }
+
 @media(min-width: 992px) {
     .section-column {
         padding: 0 30px 30px;
