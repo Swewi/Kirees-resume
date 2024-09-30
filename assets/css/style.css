@@ -7,11 +7,14 @@
 }
 
 .bg-color-three-reasons {
-    background-color: #959393;
+    background-image: linear-gradient(330deg, #807c7c, #21625a);
 }
 
 .bg-color-personal-info {
-    background-color: #820e0e;
+    background-image: linear-gradient(245deg, #b82323, #750b0b);
+    border: none;
+    border-radius: 0 3px 0 0;
+    box-shadow: inset 0px 0 20px 1px #525252;
 }
 
 .bg-color-skills {
@@ -19,19 +22,25 @@
 }
 
 .bg-color-work-history {
-    background-color: #820e0e;
+    background-image: linear-gradient(245deg, #b82323, #750b0b);
+    border: none;
+    border-radius: 0 3px 0 0;
+    box-shadow: inset 0px 0 20px 1px #525252;
 }
 
 .bg-color-contact {
-    background-color: #959393;
+    background-image: linear-gradient(330deg, #807c7c, #21625a);
 }
 
 .bg-color-conferences {
-    background-color: #820e0e;
+    background-image: linear-gradient(245deg, #b82323, #750b0b);
+    border: none;
+    border-radius: 0 3px 0 0;
+    box-shadow: inset 0px 0 20px 1px #525252;
 }
 
 .bg-color-groups {
-    background-color: #959393;
+    background-image: linear-gradient(330deg, #807c7c, #21625a);
 }
 
 .ui-menu-color-home {
@@ -62,7 +71,7 @@ body {
     font-family: "Port Lligat Sans", sans-serif;
     font-weight: 300;
     background-color: #525252;
-    color: #fff;
+    color: #fafafa;
 }
 
 /*--------------------------------------------Special Paddings/Margins/Text*/
@@ -82,7 +91,7 @@ h4 {
 .general-sub {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    color: #fff;
+    color: #fafafa;
 }
 
 .inline-block {
@@ -131,7 +140,7 @@ header {
     font-size: 4rem;
     letter-spacing: 2px;
     margin-top: 2rem;
-    color: #fff;
+    color: #fafafa;
 }
 
 .title {
@@ -140,7 +149,7 @@ header {
     font-size: 28px;
     margin-top: 2rem;
     margin-bottom: 5rem;
-    color: #fff;
+    color: #fafafa;
 }
 
 #nav {
@@ -162,7 +171,7 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #fff;
+    color: #fafafa;
     height: 120px;
     box-shadow: inset 0 0 20px 2px #5c5050;
 }
@@ -170,7 +179,7 @@ header {
 .menuitem a i {
     padding-top: 22px;
     display: block;
-    color: #fff;
+    color: #fafafa;
     font-size: 26px;
 }
 
@@ -206,13 +215,13 @@ header {
 }
 
 .dropdown-item {
-    color: #fff;
+    color: #fafafa;
 }
 
 .dropdown-item:hover,
 .dropdown-item:focus {
     background: rgba(0, 0, 0, 0.3);
-    color: #fff;
+    color: #fafafa;
 }
 
 .ui-menu-color-download {
@@ -326,7 +335,7 @@ footer .cv-pdf i:hover {
 /*--------------------------------------------Three Reasons*/
 
 .three-reasons {
-    color: #fff;
+    color: #fafafa;
 }
 
 .three-reasons-icon {
@@ -429,7 +438,7 @@ footer .cv-pdf i:hover {
 
 .course-section button {
     padding: 0.4rem 0.6rem;
-    border: 1px solid #000;
+    border: none;
     margin: 0.3rem;
     border-radius: 10px;
     font-weight: 600;
@@ -587,7 +596,7 @@ button:hover[type="submit"] {
 }
 
 .link-change {
-    color: #fff;
+    color: #fafafa;
     text-decoration: underline;
     font-size: large;
 }
