@@ -67,6 +67,26 @@
     background-color: #075a11;
 }
 
+.progress-color-html {
+    background-image: linear-gradient(#960d0d, #750b0b, #960d0d);
+}
+
+.progress-color-css {
+    background-image: linear-gradient(#8c0e0e, #be4f09, #8c0e0e);
+}
+
+.progress-color-javascript {
+    background-image: linear-gradient(#be7f09, #cbbe0b, #be7f09);
+}
+
+.progress-color-python {
+    background-image: linear-gradient(#037c11, #075a11, #037c11);
+}
+
+.progress-color-sql {
+    background-image: linear-gradient(#5e0da5, #0c135f, #5e0da5);
+}
+
 body {
     font-family: "Port Lligat Sans", sans-serif;
     font-weight: 300;
@@ -124,7 +144,7 @@ header {
 }
 
 .logo {
-    background: url("../images/kiree_lift.jpg");
+    background: url("../images/kiree_lift.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -168,6 +188,14 @@ header {
     border-radius: 4px;
 }
 
+.menuitem-alt {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+    border: 1px solid #171616;
+    border-radius: 4px;
+}
+
 .menuitem a {
     width: 100%;
     text-decoration: none;
@@ -176,10 +204,25 @@ header {
     box-shadow: inset 0 0 20px 2px #5c5050;
 }
 
+.menuitem-alt a {
+    width: 100%;
+    text-decoration: none;
+    color: #292828;
+    height: 120px;
+    box-shadow: inset 0 0 20px 2px #5c5050;
+}
+
 .menuitem a i {
     padding-top: 22px;
     display: block;
     color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem-alt a i {
+    padding-top: 22px;
+    display: block;
+    color: #292828;
     font-size: 26px;
 }
 
@@ -194,18 +237,32 @@ header {
     letter-spacing: 2px;
 }
 
+.menuitem-alt span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
 /*--------------------------------------------Hover.css*/
 
 .hvr-back-pulse:hover {
     background-color: #048172;
+    color: #fafafa;
     height: 120px;
 }
 
 @keyframes hvr-back-pulse {
     50% {
         background-color: #06675c;
+        color: #fafafa;
     }
 }
+
 /*------------------------------------------Download dropdown*/
 
 .dropdown-menu {
@@ -408,8 +465,24 @@ footer .cv-pdf i:hover {
     display: flex;
     align-items: center;
     padding: 0.5rem;
+    color: #292828;
+    background-color: #ffffff20;
+    font-weight: bold;
+    z-index: 2;
+    letter-spacing: 2px;
+}
+
+.progress-type-alt {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
     color: #fafafa;
-    background-color: rgba(74, 73, 73, 0.1);
+    background-color: #29282820;
     z-index: 2;
     letter-spacing: 2px;
 }
