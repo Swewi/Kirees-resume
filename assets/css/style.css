@@ -709,6 +709,11 @@ button:hover[type="submit"] {
         padding: 0.1rem 0.3rem;
         font-size: 14px;
     }
+
+    .ui-menu-color-download a span {
+        font-size: 14px;
+        white-space: wrap;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1350px) {
