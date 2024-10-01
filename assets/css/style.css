@@ -59,6 +59,11 @@
     background-color: #5e0da5;
 }
 
+.ui-menu-color-down li a {
+    background-color: #5e0da5;
+    box-shadow: none;
+}
+
 .ui-menu-color-github {
     background-color: #0c135f;
 }
@@ -267,8 +272,8 @@ header {
 
 .dropdown-menu {
     background-color: #59109a;
-    border: 1px solid #59109a;
-    padding: 0;
+    border: 1px solid #171616;
+    padding: 0 0.2rem;
 }
 
 .dropdown-item {
@@ -285,20 +290,9 @@ header {
     position: relative;
 }
 
-.ui-menu-color-download .dropdown-menu {
-    max-width: 80%;
-    text-align: center;
-    left: 50%;
-    transform: translateX(-50%)
-}
-
-.dropdown-item {
-    font-size: 14px;
-}
-
 .dropdown-toggle::after {
     display: inline-block;
-    margin-left: 0.255em;
+    margin-left: 0.255rem;
     vertical-align: 0.255em;
     content: "";
     border-top: 0.3em solid;
@@ -308,12 +302,31 @@ header {
 }
 
 .ui-menu-color-download .hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .ui-menu-color-download .dropdown-menu .dropdown-item {
     height: auto;
     min-height: unset;
+}
+
+.ui-menu-color-download .dropdown-menu {
+    min-width: 2rem;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ui-menu-color-download .dropdown-item {
+    font-size: 18px;
+    padding: 0.1rem 0.6rem;
+    white-space: nowrap;
+}
+
+.ui-menu-color-download .dropdown-item:hover,
+.ui-menu-color-download .dropdown-item:focus {
+    background: rgba(0, 0, 0, 0.3);
+    color: #fafafa;
 }
 
 /*--------------------------------------------Footer*/
@@ -686,7 +699,18 @@ button:hover[type="submit"] {
       flex-direction: column;
     }
   }
-  
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .dropdown-menu {
+        padding: 0 0.1rem;
+    }
+
+    .ui-menu-color-download .dropdown-item {
+        padding: 0.1rem 0.3rem;
+        font-size: 14px;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1350px) {
     .course-section .row {
       display: flex;
