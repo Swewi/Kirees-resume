@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.hidden {
+    display: none;
+}
+
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
@@ -515,14 +519,36 @@ footer .cv-pdf i:hover {
     margin-bottom: 0.75rem !important;
 }
 
+.course-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.course-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
 .course-prov {
     margin-bottom: 0 !important;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     width: 11rem;
     letter-spacing: 1px;
     font-size: x-large;
+}
+
+.course-items {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    flex: 1;
 }
 
 .course-section li {
